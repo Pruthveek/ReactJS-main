@@ -2955,14 +2955,16 @@ const heading1 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     style: {
         color: "darkslateblue",
         backgroundColor: "yellow"
-    }
+    },
+    key: "heading1"
 }, "This is heading 1");
 const heading2 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {
-    id: "heading1",
+    id: "heading2",
     style: {
         color: "yellow",
         backgroundColor: "darkslateblue"
-    }
+    },
+    key: "heading2"
 }, "This is heading 2");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render([

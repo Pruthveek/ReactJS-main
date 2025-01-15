@@ -2,13 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 const heading1 = React.createElement(
   "h1",
-  { id: "heading1", style: { color: "darkslateblue",backgroundColor: "yellow" } },
+  {
+    id: "heading1",
+    style: { color: "darkslateblue", backgroundColor: "yellow" },
+    key: "heading1",
+  },
   "This is heading 1"
 );
 const heading2 = React.createElement(
   "h2",
-  { id: "heading1", style: { color: "yellow",backgroundColor: "darkslateblue" } },
+  {
+    id: "heading2",
+    style: { color: "yellow", backgroundColor: "darkslateblue" },
+    key: "heading2",
+  },
   "This is heading 2"
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render([heading1,heading2]);
+root.render([heading1, heading2]);

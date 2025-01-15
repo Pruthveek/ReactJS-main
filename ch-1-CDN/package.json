@@ -2,13 +2,15 @@
   "name": "ch-1-cdn",
   "version": "1.0.0",
   "description": "reactjs",
-  "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.13.3",
     "process": "^0.11.10"
   },
